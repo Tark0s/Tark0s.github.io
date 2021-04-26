@@ -277,7 +277,9 @@ section{
 }
 .slider{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     height: 80%;
     margin-bottom: 5vw;
@@ -292,7 +294,8 @@ section{
         }
     }
     &__content{
-        width: 40vw;
+        min-width: 300px;
+        width: 30vw;
         min-height: 80%;
         background-color: $text-background;
         border-radius: 10px;
