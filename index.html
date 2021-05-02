@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <script src="./scripts/index.js" defer></script>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="stylesheet" href="./styles/main.css">
-        <!-- Google fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
-        <!-- Font awesome-->
-        <script src="https://kit.fontawesome.com/677808b378.js" crossorigin="anonymous"></script>
-        <!--Media Queries-->
-        <link rel="stylesheet" media="(max-width: 400px)" href="./styles/mediaQ400.css">
-        <link rel="stylesheet" media="(max-width: 600px)" href="./styles/mediaQ600.css">
-        <link rel="stylesheet" media="(max-width: 800px)" href="./styles/mediaQ800.css">
-        <link rel="stylesheet" media="(max-width: 1000px)" href="./styles/mediaQ1000.css">
-        
-        <link rel="shortcut icon" href="./images/titleIcon.png">
-        <title>Portfolio</title>
-    
-        
-    
-    </head>
-    
-    <body >
-        <header class="nav">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./scripts/cursor.js" defer></script>
+    <script src="./scripts/index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./styles/main.css">
+    <!-- Google fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,700;1,400&family=Nunito:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- Font awesome-->
+    <script src="https://kit.fontawesome.com/677808b378.js" crossorigin="anonymous"></script>
+    <!--Media Queries-->
+    <link rel="stylesheet" media="(max-width: 400px)" href="./styles/mediaQ400.css">
+    <link rel="stylesheet" media="(max-width: 600px)" href="./styles/mediaQ600.css">
+    <link rel="stylesheet" media="(max-width: 800px)" href="./styles/mediaQ800.css">
+    <link rel="stylesheet" media="(max-width: 1000px)" href="./styles/mediaQ1000.css">
+
+    <link rel="shortcut icon" href="./images/titleIcon.png">
+    <title>Portfolio</title>
+
+</head>
+
+<body>
+    <!-- Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor_follow" id="cursor_follow"></div>
+
+    <header class="nav">
         <div class="nav__name">Łukasz Tarkowski</div>
         <ul class="nav__list" id="navList">
             <div class="menu" id="menuBurgerHide">
@@ -40,43 +46,62 @@
             <i class="fas fa-bars" onclick="showNav()"></i>
         </div>
     </header>
-    
+
     <div class="home">
         <div class="home__desc">
             <h1>Hello!</h1>
             <h3>Get to know me</h3>
-            
+
             <div class="home__desc__socialMedia">
                 <ul class="home__socialMedia__list">
-                    <li class="home__desc__socialMedia__list__item"><a href="https://www.facebook.com/tark0s/" target="_blank"><i class="home__desc__socialMedia__list__item__facebook fab fa-facebook"></i></a></li>
-                    <li class="home__desc__socialMedia__list__item"><a href="https://www.instagram.com/tuk4sz/" target="_blank"><i class="home__desc__socialMedia__list__item__instagram fab fa-instagram"></i></a></li>
-                    <li class="home__desc__socialMedia__list__item"><a href="https://www.linkedin.com/in/%C5%82ukasz-tarkowski-582541202/" target="_blank"><i class="home__desc__socialMedia__list__item__linkedin fab fa-linkedin-in"></i></a></li>
-                    <li class="home__desc__socialMedia__list__item"><a href="https://github.com/Tark0s" target="_blank"><i class="home__desc__socialMedia__list__item__github fab fa-github"></i></a></li>
+                    <li class="home__desc__socialMedia__list__item"><a href="https://www.facebook.com/tark0s/"
+                            target="_blank"><i
+                                class="home__desc__socialMedia__list__item__facebook fab fa-facebook"></i></a></li>
+                    <li class="home__desc__socialMedia__list__item"><a href="https://www.instagram.com/tuk4sz/"
+                            target="_blank"><i
+                                class="home__desc__socialMedia__list__item__instagram fab fa-instagram"></i></a></li>
+                    <li class="home__desc__socialMedia__list__item"><a
+                            href="https://www.linkedin.com/in/%C5%82ukasz-tarkowski-582541202/" target="_blank"><i
+                                class="home__desc__socialMedia__list__item__linkedin fab fa-linkedin-in"></i></a></li>
+                    <li class="home__desc__socialMedia__list__item"><a href="https://github.com/Tark0s"
+                            target="_blank"><i
+                                class="home__desc__socialMedia__list__item__github fab fa-github"></i></a></li>
                 </ul>
             </div>
         </div>
         <div class="home__image">
         </div>
     </div>
-    
-    <main> 
+
+    <main>
         <section class="about" id="about">
-            <h1>O mnie</h1>
+            <h1>Getting Started</h1>
             <div class="about__desc">
-                <p>Właśnie skończyłem technikum uzyskując tym samym tytuł technika informatyka. Dzięki szkole średniej, nauczyłem się wielu fundamentów z dziedziny IT i nie tylko. 
-                    Z informatyką nie spotykałem się jedynie na zajęciach w placówce edukacyjnej ale również w moim domu. W 2018 roku zacząłem traktować informatykę jako hobby. Od tamtej pory każda kompilacja stwarza we mnie poczucie satysfakcji.
-                    Faktem jest, że jest to dziedzina wymagająca szerokiej wiedzy teoretycznej i wielu  umiejętności praktycznych. Aby sprostać wymaganiom, zdecydowałem się na studia, które zamierzam rozpocząć w październiku 2021 roku w systemie zaocznym na kierunku “informatyka stosowana” na jednej z warszawskich uczelni. Mam nadzieję, że będę także mógł podjąć się pracy w IT, co pozwoli mi się dalej rozwijać w tej dziedzinie.  </p> 
-                <p class="about__desc__quote">Trzy słowa wystarczą do streszczenia mojej osobowości. Pierwsze z nich to "organizacja", której jestem dozgonnym wyznawcą. Zgodnie z tym wierzeniem, dążę do zwalczania wszelkiego chaosu. Kolejnym i nie mniej ważnym jest "precyzja". Towarzyszy mi w wielu dziedzinach życia i przejawia się tylko pozytywnymi skutkami. "Equilibria" ma niezliczenie wiele znaczeń, w tym opisie jednak oznacza opanowanie i równowagę.</p>
-               
+                <p>Właśnie skończyłem technikum uzyskując tym samym tytuł technika informatyka. Dzięki szkole średniej,
+                    nauczyłem się wielu fundamentów z dziedziny IT i nie tylko.
+                    Z informatyką nie spotykałem się jedynie na zajęciach w placówce edukacyjnej ale również w moim
+                    domu. W 2018 roku zacząłem traktować informatykę jako hobby. Od tamtej pory każda kompilacja stwarza
+                    we mnie poczucie satysfakcji.
+                    Faktem jest, że jest to dziedzina wymagająca szerokiej wiedzy teoretycznej i wielu umiejętności
+                    praktycznych. Aby sprostać wymaganiom, zdecydowałem się na studia, które zamierzam rozpocząć w
+                    październiku 2021 roku w systemie zaocznym na kierunku “informatyka stosowana” na jednej z
+                    warszawskich uczelni. Mam nadzieję, że będę także mógł podjąć się pracy w IT, co pozwoli mi się
+                    dalej rozwijać w tej dziedzinie. </p>
+                <p class="about__desc__quote">Trzy słowa wystarczą do streszczenia mojej osobowości. Pierwsze z nich to
+                    "organizacja", której jestem dozgonnym wyznawcą. Zgodnie z tym wierzeniem, dążę do zwalczania
+                    wszelkiego chaosu. Kolejnym i nie mniej ważnym jest "precyzja". Towarzyszy mi w wielu dziedzinach
+                    życia i przejawia się tylko pozytywnymi skutkami. "Equilibria" ma niezliczenie wiele znaczeń, w tym
+                    opisie jednak oznacza opanowanie i równowagę.</p>
+
             </div>
         </section>
         <section class="skills" id="skills">
             <h1>Umiejętności</h1>
-            
+
             <div class="skills__desc">
                 <div class="skills__desc__category">
                     <h3>Frontend</h3>
-                    <ul>
+                    <ul> 
                         <li>SCSS/BEM</li>
                         <li>JavaScript</li>
                         <li>Parcel</li>
@@ -106,23 +131,22 @@
                     </ul>
                 </div>
             </div>
-            
+
         </section>
-        
+
         <section class="projects" id="projects">
             <h1>Projekty</h1>
-            
+
             <div class="slider">
-                <!-- <div class="slider__arrow__left">
-                    <i class="fas fa-caret-left"></i>
-                </div> -->
+                
                 <div class="slider__content">
                     <div class="slider__content__top" id="sliderTop">
                         <h2>Portfolio website</h2>
                     </div>
                     <div class="slider__content__middle" id="sliderMiddle">
                         <div class="slider__content__middle__desc">
-                            <p>Strona przedstawiająca nabyte przeze mnie umiejętności. Jest w pełni responsywna i używa jednego pliku do wszystkich rozmiarów urządzeń. </p>
+                            <p>Strona przedstawiająca nabyte przeze mnie umiejętności. Jest w pełni responsywna i używa
+                                jednego pliku do wszystkich rozmiarów urządzeń. </p>
                         </div>
                         <div class="slider__content__middle__tech">
                             <ul>
@@ -135,65 +159,64 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="slider__content__bottom"  id="sliderBottom">
+                    <div class="slider__content__bottom" id="sliderBottom">
                         <a href="https://github.com/Tark0s/Tark0s.github.io"><i class="far fa-address-card"></i></a>
                     </div>
+
+                </div>
                 
-                
-                <!-- <div class="slider__arrow__right" id="rightArrow" >
-                    <i class="fas fa-caret-right"></i>
-                </div> -->
-               
-            </div>
-            <div class="slider__content">
+                <div class="slider__content">
                     <div class="slider__content__top" id="sliderTop">
-                        <h2>Portfolio website</h2>
+                        <h2> JavaScript Game</h2>
                     </div>
                     <div class="slider__content__middle" id="sliderMiddle">
                         <div class="slider__content__middle__desc">
-                            <p>Strona przedstawiająca nabyte przeze mnie umiejętności. Jest w pełni responsywna i używa jednego pliku do wszystkich rozmiarów urządzeń. </p>
+                            <p>Kamień, papier, nożyce. Nikomu nie trzeba tłumaczyć czym jest ta gra. Tą kultową zabawę przeniosłem na płaszczyznę przeglądarkową. </p>
                         </div>
                         <div class="slider__content__middle__tech">
                             <ul>
                                 <li>SCSS/BEM</li>
                                 <li>JavaScript</li>
-                                <li>Parcel</li>
                                 <li>Flex</li>
-                                <li>Figma</li>
                                 <li>Node.js</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="slider__content__bottom"  id="sliderBottom">
-                        <a href="https://github.com/Tark0s/Tark0s.github.io"><i class="far fa-address-card"></i></a>
+                    <div class="slider__content__bottom" id="sliderBottom">
+                        <a href="https://github.com/Tark0s/RockPaperScissors"><i class="far fa-address-card"></i></a>
                     </div>
-                    
+
                 </div>
-        </section> 
+                
+            </div>
+        </section>
         <section class="contact" id="contact">
             <h1>Kontakt</h1>
             <div class="contact__form">
                 <form action="https://formsubmit.co/tarkowski14@gmail.com" method="POST">
-                    
+
                     <input type="hidden" name="_subject" value="New email from porftolio!">
                     <div class="contact__form__email__container">
-                        <input class="contact__form__email" type="email" name="email" id="email" autocomplete="off" placeholder=" " required> 
+                        <input class="contact__form__email" type="email" name="email" id="email" autocomplete="off"
+                            placeholder=" " required>
                         <label class="contact__form__email__label" for="email">Email</label>
                     </div>
                     <div class="contact__form__message__container">
-                        <textarea class="contact__form__message" type="text" name="message" id="message" placeholder=" " max-rows="3" width="100" required></textarea>
+                        <textarea class="contact__form__message" type="text" name="message" id="message" placeholder=" "
+                            max-rows="3" width="100" required></textarea>
                         <label class="contact__form__message__label" for="message">Wiadomość</label>
                     </div>
-                    
+
                     <button type="submit">Wyślij</button>
-                </form>  
+                </form>
             </div>
         </section>
-        
-        
+
+
     </main>
-    
+
     <footer>&copy 2021 Łukasz Tarkowski. All rights reserved</footer>
 
 </body>
+
 </html>

@@ -1,29 +1,35 @@
-.home__image{
-    display: none;
+.home__image {
+  display: none;
 }
-.home__desc{
-
-    justify-content: center;
-    width: 100%;
+.home__desc {
+  justify-content: center;
+  width: 100%;
 }
-.home__desc h1{
-       font-size: 80px;
-       text-align: center;
+.home__desc h1 {
+  font-size: 80px;
+  text-align: center;
 }
-.home__desc h3{
-    font-size: 30px;
-    text-align: center;
+.home__desc h3 {
+  font-size: 30px;
+  text-align: center;
 }
-.home__socialMedia__list{
-    text-align: center;
-    padding-inline-start: 0px;
+.home__socialMedia__list {
+  text-align: center;
+  padding-inline-start: 0px;
 }
-.home__socialMedia__list__item{
-    margin: 0;
+.home__socialMedia__list__item {
+  margin: 0;
 }
-.contact__form{
-    width: 50vw;
+.contact__form {
+  width: 50vw;
 }
-.slider__content{
-    width: 80vw;
+.projects {
+}
+.slider {
+  flex-direction: column;
+  align-items: center;
+}
+.slider__content {
+  width: 80vw;
+  margin-bottom: 3vh;
 }
