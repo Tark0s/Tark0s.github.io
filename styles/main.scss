@@ -128,10 +128,6 @@ body {
   display: none;
   font-size: 30px;
   color: $font-color-secondary;
-
-  &:hover {
-    //..
-  }
 }
 .home {
   height: 80vh;
@@ -204,9 +200,9 @@ body {
   &__image {
     height: 100%;
     width: 50%;
-    background-image: url("../images/Black_hoodie.png");
+    background-image: url("../images/portet_transparent.png");
     background-repeat: no-repeat;
-    background-size: 70%;
+    background-size: 60%;
     background-position-y: bottom;
     background-position-x: right;
   }
