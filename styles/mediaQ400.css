@@ -1,10 +1,15 @@
-.slider__content{
-    width: 80vw;
-    flex-wrap: wrap;
+.slider__content {
+  width: 80vw;
+  flex-wrap: wrap;
 }
-.slider__content__middle{
-    flex-wrap: wrap;
+.slider__content__middle {
+  flex-wrap: wrap;
 }
-.slider__content__middle__tech, .slider__content__middle__desc{
-    min-width: 100%;
+.slider__content__middle__tech,
+.slider__content__middle__desc {
+  min-width: 100%;
+}
+.cursor,
+.cursor_follow {
+  z-index: -100;
 }

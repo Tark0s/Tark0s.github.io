@@ -1,6 +1,7 @@
 const cursorElement = document.querySelector(`.cursor`);
 const cursorFollowElement = document.querySelector(`.cursor_follow`);
 
+
 let mousePosition = {
   x:-1000,
   y:-1000,
