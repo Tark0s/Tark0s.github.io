@@ -13,3 +13,6 @@
 .cursor_follow {
   z-index: -100;
 }
+.skills__desc__category h3 {
+  font-size: 20px;
+}

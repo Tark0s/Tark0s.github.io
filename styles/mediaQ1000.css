@@ -33,3 +33,8 @@
   width: 80vw;
   margin-bottom: 3vh;
 }
+#cursor,
+#cursor_follow {
+  background-color: transparent;
+  border-color: transparent;
+}
