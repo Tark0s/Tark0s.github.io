@@ -1,5 +1,8 @@
 # Tark0s.github.io
 
+This website represents my frontend skills
+
+
 ## Used technologies:
   - HTML
   - CSS/SASS
@@ -8,4 +11,3 @@
   - Flex 
   - Node.js
 
-This website represents my frontend skills
